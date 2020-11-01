@@ -7,7 +7,7 @@ import Alert  from '../components/alert'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout home="home">
       <Head>
         <title>{siteTitle}</title>
       </Head>
